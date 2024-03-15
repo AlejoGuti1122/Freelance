@@ -9,7 +9,7 @@ export const dataSocialNetworks = [
       id: 2,
       name: "Instagram",
       icon: "instagram",
-      link: "https://www.instagram.com/alejo9528/",
+      link: "https://www.instagram.com/meraquiaccesorioss/",
     }
 
   ];

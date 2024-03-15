@@ -17,7 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={urbanist.className}>{children}</body>
+      <body className={urbanist.className}>
+        {children}
+        <footer />
+      </body>
     </html>
   )
 }

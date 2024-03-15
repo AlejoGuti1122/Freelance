@@ -11,7 +11,7 @@ export function Navbar() {
         height="25"
         className="mx-auto lg:mx-0"
       />
-      <div className="flex gap-4 text-center">
+      <div className="flex flex-wrap gap-4 text-center justify-center md:justify-start">
         <Link
           className="px-4 py-2 bg-amber-200 text-white rounded hover:bg-amber-400 transition duration-300 ease-in-out"
           href="#overview"
@@ -32,9 +32,9 @@ export function Navbar() {
         </Link>
         <Link
           className="px-4 py-2 bg-amber-200 text-white rounded hover:bg-amber-400 transition duration-300 ease-in-out"
-          href="#practice"
+          href="#products"
         >
-          Practice
+          Products
         </Link>
       </div>
     </div>

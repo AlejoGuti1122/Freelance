@@ -1,4 +1,6 @@
+import { dataSocialNetworks } from "@/data/dataSocialNetworks"
 import Image from "next/image"
+import Link from "next/link"
 
 export function Overview() {
   return (
@@ -12,27 +14,22 @@ export function Overview() {
             Muestra tu mejor versión
           </h1>
           <p className="mt-55 text-white">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-            rerum, nesciunt quia dicta voluptatem omnis quaerat impedit vel
-            vitae reiciendis atque. Nihil ea odit esse deserunt, aperiam aut
-            perferendis expedita!
+            "Descubre accesorios que realzan tu esencia y te inspiran a
+            proyectar tu brillo único. Con cada pieza, siente cómo elevas tu
+            estilo, mostrando al mundo tu mejor versión con elegancia y
+            autenticidad."
           </p>
           <div></div>
 
-          <div className=" mt-16 flex justify-start gap-4 my-50">
-            <p>Instagram</p>
-            <p>WhatsApp</p>
-          </div>
-
-          <div className="mt-2">
+          <div className="mt-20">
             <p className="text-white  md:grid italic">
-              INVIERTE EN TI, SIN CULPA
+              ¡INVIERTE EN TI, SIN CULPA!
             </p>
           </div>
         </div>
         <div className="overflow-hidden">
           <Image
-            className=" ml-auto rounded-full mt-8 transition-transform duration-500 ease-in-out transform hover:scale-105"
+            className=" ml-auto rounded-full mt-8 transition-transform duration-300 ease-in-out transform hover:scale-105"
             src="/assets/overview2.png"
             alt="overview"
             width="400"
